@@ -57,8 +57,7 @@ protected:
   // Plot
 
   // путь к файлу  с координатами с точками ломанной
-  //QString pathFileData;
-  //QString pathFileDataInterpolationOutput;
+  QString pathFileData;
 
   QGraphicsSimpleTextItem *m_coordX = nullptr;
   QGraphicsSimpleTextItem *m_coordY = nullptr;
@@ -72,7 +71,7 @@ protected:
   LightMarkersWidget *lmw;
   QTimer *m_timer;
 
-  qreal x=0,y=0,h=0.05;
+  qreal x=0,y=0,h=0.5;
 
   // experimental function for random value
 

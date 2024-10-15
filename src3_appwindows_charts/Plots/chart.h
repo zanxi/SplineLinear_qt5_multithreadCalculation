@@ -4,9 +4,7 @@
 #ifndef CHART_H
 #define CHART_H
 
-//#include <QChart>
-#include <QtCharts>
-using namespace QtCharts;
+#include <QChart>
 
 QT_FORWARD_DECLARE_CLASS(QGestureEvent)
 

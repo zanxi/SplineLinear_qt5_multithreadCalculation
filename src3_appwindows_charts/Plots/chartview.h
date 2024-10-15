@@ -6,9 +6,6 @@
 
 #include <QChartView>
 #include <QRubberBand>
-#include <QtCharts>
-
-using namespace QtCharts;
 
 //![1]
 class ChartView : public QChartView

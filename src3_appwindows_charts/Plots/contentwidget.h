@@ -5,11 +5,9 @@
 #define CONTENTWIDGET_H
 
 #include <QWidget>
-#include <QtCharts>
 
-//QT_FORWARD_DECLARE_CLASS(QChart)
-//QT_FORWARD_DECLARE_CLASS(QChartView)
-using namespace QtCharts;
+QT_FORWARD_DECLARE_CLASS(QChart)
+QT_FORWARD_DECLARE_CLASS(QChartView)
 
 class ContentWidget : public QWidget
 {

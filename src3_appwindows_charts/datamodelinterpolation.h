@@ -12,9 +12,9 @@ class DataModelInterpolation
 public:    
     DataModelInterpolation();
     QVector<double> xs, ys;
-    //std::vector<Polynomial> polynomes;
+    std::vector<Polynomial> polynomes;
     std::vector<QPointF> points;
-    //Interpolation spline;
+    Interpolation spline;
     int number; // номер участка массива точек
 };
 
